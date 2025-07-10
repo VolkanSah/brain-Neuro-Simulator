@@ -5,7 +5,6 @@
 Because every developer has *that moment* — the legendary stupid moment — when a variable is empty, a folder is missing, or your script just decides to throw a tantrum.  
 ### Note: common sense is *not* installed by default.
 
----
 
 ## Installation
 
@@ -13,7 +12,6 @@ Because every developer has *that moment* — the legendary stupid moment — wh
 - Linux: `wget https://example.com/brain.bin && chmod +x brain.bin`  
 - MacOS: Sorry, your ego is too big for this tool.
 
----
 
 ## Usage
 
@@ -22,8 +20,6 @@ if [ -z "$BRAIN" ]; then
   echo "No brain detected or BRAIN is empty! Please install brain.exe or brain.bin"
 fi
 ````
-
----
 
 ## Error Codes
 
@@ -34,23 +30,19 @@ fi
 | 0xNULLVAR  | Variable empty              | Set BRAIN variable, try again |
 | 0x404      | Brain not found             | Download from trusted source  |
 
----
 
 ## Contributing
 
 PRs welcome! Especially if you add a Windows GUI or an arrogant MacOS workaround.
 
----
 
 ## License
 
 Don’t Be A Dick License. Use brain responsibly.
 
----
 
 *Powered by a brainless developer.*
 
----
 
 🧠💥 Feel free to fork, star, and share the sanity!
 
