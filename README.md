@@ -31,6 +31,22 @@ fi
 | 0x404      | Brain not found             | Download from trusted source  |
 
 
+## brain --debug
+
+Run the ultimate sanity check:
+
+```bash
+$ brain --debug
+[DEBUG] Scanning for logical errors...
+[DEBUG] Found 47 instances of "it worked yesterday"
+[DEBUG] Detected infinite loop in problem-solving process
+[DEBUG] Warning: Rubber duck not found in vicinity
+[DEBUG] Critical: Coffee levels below minimum threshold
+[DEBUG] Recommendation: Turn it off and on again (yourself)
+```
+Because sometimes, debugging your code is just debugging yourself.
+Keep calm and debug on! 🧠🐤☕
+
 ## Contributing
 
 PRs welcome! Especially if you add a Windows GUI or an arrogant MacOS workaround.
