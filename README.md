@@ -18,7 +18,8 @@ Note: Common sense is not included by default.
 
 ```bash
 if [ -z "$BRAIN" ]; then
-  echo "No brain detected or BRAIN is empty! Please install brain.exe or brain.bin"
+  echo "No brain detected or BRAIN is empty! Please check error code or debug your brain"
+
 fi
 ````
 
