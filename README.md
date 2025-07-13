@@ -9,8 +9,6 @@ Because every developer has *that moment* — the legendary stupid moment — wh
 
 
 ## Installation
-*Now with existential dread as a service!*  
-⚠️ **Warning:** May cause sudden realizations that you've been coding with CAPS LOCK on for 3 hours.  
 
 - Windows: Download `brain.exe` (warning: may cause existential crises).  
 - Linux: `sudo curl -sL https://fakeurl.com/brain.bin | sudo tee /dev/brain > /dev/null `  (Now with 200% more sudo!) .
