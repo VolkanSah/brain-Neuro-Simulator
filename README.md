@@ -54,12 +54,15 @@ Keep calm and debug on! 🧠🐤☕
 ### FAQ (Frequently Avoided Questions)
 
 Q: Why is my brain returning 404?
+
 A: Run memories --recall-childhood --filter="math_class"
 
 Q: Can I run this on Kubernetes?
+
 A: kubectl apply -f midlife-crisis.yaml
 
 Q: Where is my brain?
+
 A: I don`t know!?
 
 ## Contributing
