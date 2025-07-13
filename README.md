@@ -1,12 +1,11 @@
 # brain.exe / brain.bin
-**The Neuro-Simulator for Overconfident Developers**  
+##### The Neuro-Simulator for Overconfident Developers
 
-⚠️ **Warning:** May cause sudden realizations that you've been coding with CAPS LOCK on for 3 hours.  
+> [!WARNING]
+> May trigger sudden realizations that you've been coding with CAPS LOCK enabled for hours.
 
-
-Because every developer has *that moment* — the legendary stupid moment — when a variable is empty, a folder is missing, or your script just decides to throw a tantrum.  
-### Note: common sense is *not* installed by default.
-
+Because every developer experiences that moment — the infamous stupid moment — when a variable turns out empty, a folder vanishes, or the script throws a fit.
+Note: Common sense is not included by default.
 
 ## Installation
 
