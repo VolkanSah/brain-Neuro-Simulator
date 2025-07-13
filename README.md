@@ -1,4 +1,4 @@
-# brain.exe / brain.bin
+# brain
 ##### The Neuro-Simulator for Overconfident Developers
 
 > [!WARNING]
