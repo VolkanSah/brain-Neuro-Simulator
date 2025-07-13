@@ -1,4 +1,4 @@
-# brain
+# brain - Neuro-Simulator
 ##### The Neuro-Simulator for Overconfident Developers
 
 > [!WARNING]
