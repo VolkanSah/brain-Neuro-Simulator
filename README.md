@@ -26,7 +26,7 @@ Because every developer experiences that moment — the infamous **plöööt mom
 ## 📦 Installation
 
 **Windows:**  
-Download `brain.exe` (warning: may cause existential crises)
+Download `brain.sh` and run, God luck!  (warning: may cause existential crises)
 
 **Linux:**
 ```bash
