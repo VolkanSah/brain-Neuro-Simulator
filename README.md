@@ -187,6 +187,34 @@ Gespeichert in /dev/shame
 
 > "Debugged for hours. Typo in variable name. Classic."
 
+### The Hall of Shame: One Character Bugs 🏆
+
+> **The Underscore Incident**  
+> `my_variable` vs `myvariable` - 2 hours of debugging. It was the underscore.
+
+> **The Semicolon Saga**  
+> Spent entire afternoon tracking down mysterious syntax error. Missing semicolon on line 3. Found it at 11 PM.
+
+> **The Slash Disaster**  
+> `path/to/file` vs `path\to\file` - Windows vs Linux. Again.
+
+> **The API 404 Mystery**  
+> ```javascript
+> const data = await fetch('/api/user');   // 404 NOT FOUND
+> // 3 hours later...
+> const data = await fetch('/api/users');  // Oh. Ein 's' fehlt.
+> ```
+> Checked permissions, database, server logs, DNS... everything except the URL itself.
+
+> **The Invisible Space**  
+> `if (value== "test")` - Why doesn't this work?!  
+> Turns out: `"test "` with trailing space. Copy-pasted from documentation. FML.
+
+> **The Case Sensitivity Trap**  
+> `getUserData()` vs `getUserdata()` - JavaScript doesn't care about your feelings.
+
+**Pro Tip:** Your brain auto-corrects what you read. You see what SHOULD be there, not what IS there. That's why the bug is invisible. That's why you're plöööt. That's why we made this tool.
+
 ---
 
 ## ❓ FAQ (Frequently Avoided Questions)
