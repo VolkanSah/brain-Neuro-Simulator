@@ -1,40 +1,69 @@
-# brain - Neuro-Simulator (joke)
-##### The Neuro-Simulator for Overconfident Developers
+# brain - Neuro-Simulator v2.0 🧠💥
+
+##### The Official Sanity Check for Overconfident Developers
 
 > [!WARNING]
 > May trigger sudden realizations that you've been coding with CAPS LOCK enabled for hours.
 
-Because every developer experiences that moment — the infamous stupid moment — when a variable turns out empty, a folder vanishes, or the script throws a fit.
-Note: Common sense is not included by default.
+Because every developer experiences that moment — the infamous **plöööt moment** — when a variable turns out empty, a folder vanishes, or the script throws a fit for no apparent reason (spoiler: there was a reason, and it was you).
 
-## Installation
+**Note:** Common sense is not included by default. Brain sold separately.
 
-- Windows: Download `brain.exe` (warning: may cause existential crises).  
-- Linux: `sudo curl -sL https://fakeurl.com/brain.bin | sudo tee /dev/brain > /dev/null `  (Now with 200% more sudo!) .
-- MacOS: Sorry, your ego is too big for this tool.
+---
 
+## 🎯 Features
 
-## Usage
+- **brain --debug**: Ultimate sanity check with cognitive load monitoring
+- **brain --self-diagnose**: Spoiler alert - you ARE the problem (99.7% accuracy)
+- **brain --commit-honesty**: Finally, commit messages that tell the truth
+- **brain --rubber-duck**: Interactive debugging with a judgmental duck 🦆
+- **brain --plöt-log**: Document your daily failures in style
+- **Simulate Critical Failures**: Coffee shortage, arrogance overflow, and more!
+- **Real-time Stats**: Track your brain level, coffee intake, and duck presence
+
+---
+
+## 📦 Installation
+
+**Windows:**  
+Download `brain.exe` (warning: may cause existential crises)
+
+**Linux:**
+```bash
+sudo curl -sL https://fakeurl.com/brain.bin | sudo tee /dev/brain > /dev/null
+```
+*(Now with 200% more sudo!)*
+
+**MacOS:**  
+Sorry, your ego is too big for this tool.
+
+---
+
+## 🚀 Quick Start
+
+```bash
+chmod +x brain.sh
+./brain.sh
+```
+
+### First-time Setup
+
+The simulator will check if your `$BRAIN` variable is set:
 
 ```bash
 if [ -z "$BRAIN" ]; then
-  echo "No brain detected or BRAIN is empty! Please check error code or debug your brain"
-
+  echo "No brain detected or BRAIN is empty!"
+  echo "Run: export BRAIN=\"installed\""
 fi
-````
+```
 
-## Error Codes
+Don't worry, the script will offer to fix this for you. Unlike most of your bugs.
 
-| Code       | Meaning                     | Fix                           |
-| ---------- | --------------------------- | ----------------------------- |
-| 0xDEEPRED  | Stack overflow by arrogance | Remove `sudo` from your life  |
-| 0xPLÖT1337 | Missing brain detected      | Reboot user, apply coffee     |
-| 0xNULLVAR  | Variable empty              | Set BRAIN variable, try again |
-| 0xCAFFEINE | Critical coffee shortage	   | Start coffee machine run      |
-| 0x404      | Brain not found             | Download from trusted source  |
+---
 
+## 💻 Usage Examples
 
-## brain --debug
+### brain --debug
 
 Run the ultimate sanity check:
 
@@ -45,39 +74,211 @@ $ brain --debug
 [DEBUG] Found 47 instances of "it worked yesterday"
 [DEBUG] Detected infinite loop in problem-solving process
 [DEBUG] Warning: Rubber duck not found in vicinity
-[DEBUG] Critical: Coffee levels below minimum threshold
-[DEBUG] Recommendation: Turn yourself off and on again!
+[DEBUG] Critical: Console.log() statements found in production
+[INFO] Brain activity detected. Coffee levels nominal.
 ```
-Because sometimes, debugging your code is just debugging yourself.
-Keep calm and debug on! 🧠🐤☕
 
-### FAQ (Frequently Avoided Questions)
+### brain --self-diagnose
 
-Q: Why is my brain returning 0x404?
+Check if you're the problem (spoiler: you are):
 
-A: Run memories --recall-childhood --filter="math_class"
+```bash
+$ brain --self-diagnose
+[ANALYZING] Running deep introspection...
 
-Q: Can I run this on Kubernetes?
+╔════════════════════════════════════════╗
+║    SELF-DIAGNOSTIC REPORT v2.0        ║
+╚════════════════════════════════════════╝
 
-A: kubectl apply -f midlife-crisis.yaml
+Root Cause Analysis:
+  → User is root cause in 99.7% of cases
 
-Q: Where is my brain?
+Common Patterns Detected:
+  • Overconfidence: ████████░ 87%
+  • Assuming it works without testing: ██████░░░ 65%
+  • Reading documentation: ░░░░░░░░░ 3%
 
-A: I don`t know!?
+[VERDICT] Yes, you are the problem. But that's okay.
+```
 
-## Contributing
+### brain --commit-honesty
 
-PRs welcome! Especially if you add a Windows GUI or an arrogant MacOS workaround.
+Generate honest commit messages:
 
+```bash
+$ brain --commit-honesty
 
-## License
+📝 Your honest commit message:
+   "fixed typo (again)"
+   
+Other favorites:
+   "idk, just works now ¯\_(ツ)_/¯"
+   "Removed debug print statements (forgot 3 commits ago)"
+   "Reverted last commit. Reverted revert. Reverted revert of revert."
+```
 
-Don’t Be A Dick License. Use brain responsibly.
+### brain --rubber-duck
 
+Interactive debugging with emotional support:
 
-*Powered by a brainless developer.*
+```bash
+$ brain --rubber-duck
 
+    __
+___( o)>
+\ <_. )
+ `---'
 
-🧠💥 Feel free to fork, star, and share the sanity!
+🦆 Rubber Duck Debugging Mode aktiviert!
 
+Erzähl mir dein Problem...
+> My code doesn't work
 
+🦆 Quak.
+🦆 Quak quak?
+🦆 Quaaaak!
+
+(You'll figure it out while explaining. That's the point.)
+```
+
+### brain --plöt-log
+
+Document your daily failures:
+
+```bash
+$ brain --plöt-log
+
+╔════════════════════════════════════════╗
+║    PLÖÖÖT-MOMENT LOG                  ║
+╚════════════════════════════════════════╝
+
+Heutige Plöööt-Momente: 7
+
+Was ist passiert?
+> Spent 2 hours debugging. CAPS LOCK was on.
+
+✓ Plöööt-Moment #7 erfasst
+Gespeichert in /dev/shame
+```
+
+---
+
+## 🚨 Error Codes
+
+| Code        | Meaning                     | Fix                             |
+| ----------- | --------------------------- | ------------------------------- |
+| 0xDEEPRED   | Stack overflow by arrogance | Remove `sudo` from your life    |
+| 0xPLÖT1337  | Missing brain detected      | Reboot user, apply coffee       |
+| 0xNULLVAR   | Variable empty              | Set BRAIN variable, try again   |
+| 0xCAFFEINE  | Critical coffee shortage    | Start coffee machine run        |
+| 0x404       | Brain not found             | Download from trusted source    |
+| 0xBLAME     | User error detected         | Accept responsibility           |
+| 0xFRIDAY    | Prod deploy on Friday       | Pray and monitor logs           |
+
+---
+
+## 🎭 Real Plöööt Moments (User Submitted)
+
+> "Googled the error. First result: My own unanswered StackOverflow question from 2019."
+
+> "Fixed bug by adding random semicolon. Still don't know why it works."
+
+> "Git push --force on main. In production. On Friday evening."
+
+> "Debugged for hours. Typo in variable name. Classic."
+
+---
+
+## ❓ FAQ (Frequently Avoided Questions)
+
+**Q: Why is my brain returning 0x404?**  
+A: Run `memories --recall-childhood --filter="math_class"`
+
+**Q: Can I run this on Kubernetes?**  
+A: `kubectl apply -f midlife-crisis.yaml`
+
+**Q: Where is my brain?**  
+A: Last seen: `/dev/null`
+
+**Q: How do I fix myself?**  
+A: `sudo rm -rf /ego/*`
+
+**Q: Is this production-ready?**  
+A: Define "production". Define "ready".
+
+**Q: Why am I always the problem?**  
+A: Because the computer does exactly what you tell it to. Unfortunately.
+
+---
+
+## 🎓 Educational Value
+
+This isn't just a joke script - it actually teaches:
+
+- ✅ Bash scripting fundamentals (loops, functions, case statements)
+- ✅ String manipulation and variable handling
+- ✅ Menu systems and user input
+- ✅ Conditional logic and flow control
+- ✅ Error handling (by demonstrating what NOT to do in real life)
+
+---
+
+## 🤝 Contributing
+
+PRs welcome! Especially if you:
+- Add more honest commit messages
+- Implement a Windows GUI (bonus points for Comic Sans)
+- Create an arrogant MacOS workaround
+- Submit your own plöööt moments
+
+**Contribution Rules:**
+1. Code must contain at least one self-deprecating comment
+2. No optimizations that make you look smart
+3. Bugs are features if they're funny enough
+
+---
+
+## 📜 License
+
+**Don't Be A Dick License (DBAD)**
+
+Use `brain` responsibly. If you use it to mock your coworkers, at least do it with love.
+
+---
+
+## 🙏 Credits
+
+*Powered by a brainless developer on a Tuesday.*
+
+Special thanks to:
+- Every bug I've ever created
+- Stack Overflow for raising me
+- Coffee ☕
+- Rubber ducks everywhere 🦆
+- That one semicolon I forgot in 2017
+
+---
+
+## 💡 Inspiration
+
+Created during one of those days where:
+- The code worked yesterday
+- "It works on my machine" was said unironically  
+- The production incident was definitely not my fault
+- The solution was a single character typo
+
+If you've ever had a "plöööt" moment, this is for you.
+
+---
+
+**Keep calm and debug on!** 🧠💥
+
+*Feel free to fork, star, and share the sanity (or lack thereof)!*
+
+---
+
+> "The best code is no code. The second best is this simulator."  
+> — Anonymous Developer, 3 AM on a Saturday
+
+> "I don't always test my code, but when I do, I do it in production."  
+> — Every Developer, at some point
