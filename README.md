@@ -39,6 +39,20 @@ Sorry, your ego is too big for this tool.
 
 ---
 
+## 🗑️ Uninstallation (For the Desperate)
+
+| System | Instructions | Warning |
+|--------|--------------|---------|
+| **Linux** | `sudo rm -rf /dev/brain` | **Fatal Error:** Brain cannot be deleted while coffee level (`0xCAFFEINE`) is below 50%. |
+| **Windows** | Try moving `brain.exe` to Recycle Bin. | Windows will ask if you really want to delete all your knowledge. Click "Yes" (you'll regret it tomorrow). |
+| **MacOS** | `man brain` | **Tip:** The `man` page entry is longer than the entire documentation. You'll give up before finding the uninstall instructions. |
+| **General** | `git revert last_six_months` | Alternative: Just revert your last six months of work. Has the same effect. |
+
+> [!CAUTION]
+> Uninstalling your brain may lead to becoming a manager. Proceed with caution.
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
@@ -129,9 +143,9 @@ ___( o)>
 \ <_. )
  `---'
 
-🦆 Rubber Duck Debugging Mode aktiviert!
+🦆 Rubber Duck Debugging Mode activated!
 
-Erzähl mir dein Problem...
+Tell me your problem...
 > My code doesn't work
 
 🦆 Quak.
@@ -143,7 +157,7 @@ Erzähl mir dein Problem...
 
 ### brain --plöt-log
 
-Document your daily failures:
+Document your daily failures (plöööt = German slang for "dumb moment"):
 
 ```bash
 $ brain --plöt-log
@@ -152,13 +166,13 @@ $ brain --plöt-log
 ║    PLÖÖÖT-MOMENT LOG                  ║
 ╚════════════════════════════════════════╝
 
-Heutige Plöööt-Momente: 7
+Today's Plöööt-Moments: 7
 
-Was ist passiert?
+What happened?
 > Spent 2 hours debugging. CAPS LOCK was on.
 
-✓ Plöööt-Moment #7 erfasst
-Gespeichert in /dev/shame
+✓ Plöööt-Moment #7 recorded
+Saved to /dev/shame
 ```
 
 ---
@@ -202,7 +216,7 @@ Gespeichert in /dev/shame
 > ```javascript
 > const data = await fetch('/api/user');   // 404 NOT FOUND
 > // 3 hours later...
-> const data = await fetch('/api/users');  // Oh. Ein 's' fehlt.
+> const data = await fetch('/api/users');  // Oh. Missing 's'.
 > ```
 > Checked permissions, database, server logs, DNS... everything except the URL itself.
 
@@ -237,6 +251,9 @@ A: Define "production". Define "ready".
 **Q: Why am I always the problem?**  
 A: Because the computer does exactly what you tell it to. Unfortunately.
 
+**Q: What does "plöööt" mean?**  
+A: German slang for that special moment when you realize you've been incredibly stupid. Like debugging for hours only to find you misspelled a variable name. That moment? That's plöööt.
+
 ---
 
 ## 🎓 Educational Value
@@ -248,6 +265,7 @@ This isn't just a joke script - it actually teaches:
 - ✅ Menu systems and user input
 - ✅ Conditional logic and flow control
 - ✅ Error handling (by demonstrating what NOT to do in real life)
+- ✅ The importance of coffee in software development
 
 ---
 
@@ -284,6 +302,8 @@ Special thanks to:
 - Coffee ☕
 - Rubber ducks everywhere 🦆
 - That one semicolon I forgot in 2017
+- The underscore that cost me 2 hours
+- `/api/user` vs `/api/users` - never forget
 
 ---
 
@@ -294,6 +314,7 @@ Created during one of those days where:
 - "It works on my machine" was said unironically  
 - The production incident was definitely not my fault
 - The solution was a single character typo
+- You questioned your career choice at least 7 times
 
 If you've ever had a "plöööt" moment, this is for you.
 
@@ -310,3 +331,9 @@ If you've ever had a "plöööt" moment, this is for you.
 
 > "I don't always test my code, but when I do, I do it in production."  
 > — Every Developer, at some point
+
+> "It's not a bug, it's an undocumented feature."  
+> — Developer in denial
+
+> "Works on my machine ¯\\\_(ツ)_/¯"  
+> — Famous last words before production deploy
