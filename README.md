@@ -1,4 +1,4 @@
-# brain - Neuro-Simulator v2.0 🧠💥
+# brain.sh - Neuro-Simulator v2.0 🧠💥
 
 ##### The Official Sanity Check for Overconfident Developers
 
