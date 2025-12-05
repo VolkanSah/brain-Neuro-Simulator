@@ -31,7 +31,7 @@ Download `brain.sh` and run, God luck!  (warning: may cause existential crises)
 
 **Linux:**
 ```bash
-sudo curl -sL https://fakeurl.com/brain.bin | sudo tee /dev/brain > /dev/null
+sudo curl -sL https://raw.githubusercontent.com/VolkanSah/brain.sh/refs/heads/main/brain.sh | sudo tee /dev/brain > /dev/null
 ```
 *(Now with 200% more sudo!)*
 
